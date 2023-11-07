@@ -1,0 +1,3 @@
+{
+  "extends": "@hpgturbostarter/tsconfig/base.json"
+}

@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "turbobuild": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "migrate": "turbo run migrate",
+    "db:generate": "turbo run db:generate"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "tsconfig": "*",
+    "turbo": "latest"
+  },
+  "name": "hpgturbostarter",
+  "packageManager": "bun@1.0.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
