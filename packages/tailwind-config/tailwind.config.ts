@@ -47,6 +47,13 @@ export const config: Config = {
       "3": "3rem",
       "4": "4rem",
       "5": "5rem",
+      "6": "6rem",
+      "8": "8rem",
+      "10": "10rem",
+      "12": "12rem",
+      "16": "16rem",
+      "24": "24rem",
+      "32": "32rem",
     },
     fontSize: {
       sm: ["12px", "16px"],
