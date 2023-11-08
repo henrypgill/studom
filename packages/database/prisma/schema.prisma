@@ -7,11 +7,41 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("DATABASE_URL_WITH_SCHEMA")
 }
 
 
 model User {
-  user_id   String    @id @default(cuid())
+  userId   String    @id @default(cuid())
   username String @unique
+  comments Comment[]
+}
+
+
+model Address {
+  addressId String @id @default(cuid())
+  line1 String
+  line2 String?
+  line3 String?
+  town String
+  county String
+  postcode String
+  country String
+  Property Property?
+}
+
+model Property {
+  propertyId Int @id @default(autoincrement())
+  address Address @relation(fields: [addressId], references: [addressId])
+  addressId String @unique
+  comments Comment[]
+}
+
+model Comment {
+@@id([userId, propertyId])
+user User @relation(fields: [userId], references: [userId])
+userId String
+property Property @relation(fields: [propertyId], references: [propertyId])
+propertyId Int
+content String
 }
