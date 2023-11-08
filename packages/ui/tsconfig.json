@@ -1,5 +1,5 @@
 {
-  "extends": "@hpgturbostarter/tsconfig/react-library.json",
+  "extends": "@studom/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

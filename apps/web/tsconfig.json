@@ -1,5 +1,5 @@
 {
-  "extends": "@hpgturbostarter/tsconfig/nextjs.json",
+  "extends": "@studom/tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

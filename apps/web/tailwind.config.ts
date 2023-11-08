@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import sharedConfig from "@hpgturbostarter/tailwind-config";
+import sharedConfig from "@studom/tailwind-config";
 const config: Pick<Config, "presets"> = {
   presets: [sharedConfig],
 };
