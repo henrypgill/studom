@@ -1,5 +1,5 @@
 {
-  "name": "@hpgturbostarter/tailwind-config",
+  "name": "@studom/tailwind-config",
   "version": "0.0.1",
   "main": "index.ts",
   "license": "MIT",

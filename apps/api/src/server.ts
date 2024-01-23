@@ -4,7 +4,7 @@ import express from "express";
 import morgan from "morgan";
 import { homeRouter } from "./routes/home";
 import { exampleRouter } from "./routes/exampleRouter";
-import { PrismaClient } from "@hpgturbostarter/database";
+import { PrismaClient } from "@studom/database";
 
 dotenv.config();
 

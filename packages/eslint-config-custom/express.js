@@ -12,7 +12,7 @@ module.exports = {
     parserOptions: {
       sourceType: "module",
       ecmaVersion: 2020,
-      'no-unused-vars': ["error", { "argsIgnorePattern": "^_" }]
+      'no-unused-vars': ["error", { "argsIgnorePattern": "_" }]
     },
     rules: {
       "@typescript-eslint/no-non-null-assertion": "off",

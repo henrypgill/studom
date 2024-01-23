@@ -1,4 +1,4 @@
 {
-  "extends": "@hpgturbostarter/tsconfig/express.json",
+  "extends": "@studom/tsconfig/express.json",
   "include": ["src"]
 }

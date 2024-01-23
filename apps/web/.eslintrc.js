@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@hpgturbostarter/eslint-config-custom/next"],
+  extends: ["@studom/eslint-config-custom/next"],
 };

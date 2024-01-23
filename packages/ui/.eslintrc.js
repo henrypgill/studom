@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@hpgturbostarter/eslint-config-custom/react-internal"],
+  extends: ["@studom/eslint-config-custom/react-internal"],
 };

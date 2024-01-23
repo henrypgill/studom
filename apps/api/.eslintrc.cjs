@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["@hpgturbostarter/eslint-config-custom/express"],
+  extends: ["@studom/eslint-config-custom/express"],
 };
